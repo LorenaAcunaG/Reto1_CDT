@@ -3,6 +3,7 @@
 porcentaje_interes = 0.03
 porcentaje_penalidad = 0.02
 
+# variables de entrada
 id_usuario = input('Escriba el número de identificación del cliente a consultar: ')
 dinero_invertido = int(input('Escriba la cantitad de dinero invertida por el cliente: '))
 tiempo_cdt = int(input('Escriba la cantidad de tiempo que lleva el cliente con el CDT en meses: '))
