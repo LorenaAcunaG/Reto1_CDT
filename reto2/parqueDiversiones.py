@@ -1,17 +1,5 @@
 
 # Parque de diversiones "AVENTURAS EXTREMAS"
-id_cliente = 1
-nombre = "Lorena"
-edad = 8
-primer_ingreso = True
- 
- 
-usuario = {
-    "id_cliente":id_cliente,
-    "nombre":nombre,
-    "edad":edad,
-    "primer_ingreso":primer_ingreso}
-
 def cliente (informacion:dict):
 
     nombre = informacion["nombre"]
@@ -59,4 +47,19 @@ def cliente (informacion:dict):
 
     return atraccion_ok
 
-print (cliente(usuario))
+
+dic1={"id_cliente":1,"nombre":"Johana Fernandez","edad":20,"primer_ingreso":True}
+dic2={"id_cliente":1,"nombre":"Johana Fernandez","edad":20,"primer_ingreso":False}
+dic3={"id_cliente":2,"nombre":"Gloria Suarez","edad":3,"primer_ingreso":True}
+dic4={"id_cliente":3,"nombre":"Tatiana Suarez","edad":17,"primer_ingreso":True}
+dic5={"id_cliente":3,"nombre":"Tatiana Suarez","edad":17,"primer_ingreso":False}
+dic6={"id_cliente":4,"nombre":"Tatiana Ruiz","edad":8,"primer_ingreso":True}
+dic7={"id_cliente":4,"nombre":"Tatiana Ruiz","edad":8,"primer_ingreso":False}
+
+print (cliente(dic1))
+print (cliente(dic2))
+print (cliente(dic3))
+print (cliente(dic4))
+print (cliente(dic5))
+print (cliente(dic6))
+print (cliente(dic7))
